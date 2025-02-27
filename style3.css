@@ -1,0 +1,53 @@
+body{
+    background-image: url(https://media.istockphoto.com/id/1324502854/photo/space-shuttle-in-space-near-earth-planet-stratosphere-of-earth-spaceship-on-orbit-view-from.jpg?s=612x612&w=0&k=20&c=Sh7sm_HWVjZk_m4HlyyW1wTyvmLK1nwjOXWdbfvHyYo=);
+    background-repeat: no-repeat;
+    background-color: chartreuse;
+    background-position: relative;
+}
+h1 + p {
+    color: blueviolet;
+}
+input[type="text"]{
+    background-color: black;
+    color: wheat;
+}
+ul >  li{
+    font-weight: bold;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+ul li:hover{
+    color: brown;
+    background-color: beige;
+}
+ul li:nth-child(3){
+    background-color: rgba(110, 68, 224, 0.596);
+    color: aqua;
+}
+p:not(:first-of-type){
+  color: magenta;
+  background-color: darkgreen; 
+  text-decoration: underline; 
+}
+ li::before{
+    content: "🧑‍🚀";
+}
+p::first-letter{
+    font-size: 150%;
+}
+.ul{
+    width: 500px;
+    background-color: aqua;
+    padding: 20px 30px 10px 50px;
+    margin: 10px;
+    border: 3px  solid red;
+}
+#lol{
+    float: right;
+}
+#lmao{
+    float: left;
+}
+.sigma{
+    color: white;
+}
